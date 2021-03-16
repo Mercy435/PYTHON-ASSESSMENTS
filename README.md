@@ -1,3 +1,3 @@
 # python datatypes
 
-list, set, dictionary methods
+list, set, tuple, dictionary methods
