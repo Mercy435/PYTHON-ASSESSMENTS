@@ -108,3 +108,30 @@ print('tuple', mytuple)
 print('min:', min(mytuple))
 print('max:', max(mytuple))
 
+#11
+class Vehicle:
+    def __init__(self, make, model, year): #i tried to rename self
+        self.make = make
+        self.model = model
+        self.year = year
+
+
+v1 = Vehicle("Car", "Toyota", 2019)
+
+print(v1.make)
+print(v1.model)
+print(v1. year)
+
+#12
+def jollof_rice():
+    ingredients = ['tomato paste', 'onion', 'stock',
+                    'seasoning', 'salt', 'oil', 'crayfish' ]
+    print('add', ingredients[-2],'to a dry pot. Then put the',
+           tuple(ingredients[0:4]), ', add', ingredients[-3], 'to taste and add',
+          ingredients[-1], 'top up with adequate volume of water and'
+            'allow to simmer'  )
+
+    print('add already perboiled rice and cook')
+
+
+jollof_rice()
